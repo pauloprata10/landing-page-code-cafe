@@ -86,6 +86,7 @@ body {
 
 .ladrilho div {
   float: left;
+  display:flex;
 }
 
 .ladrilho .grande {
@@ -137,7 +138,7 @@ body {
 }
 
 .rodape {
-  background: url(/src/images/fundo-rodape.jpg) center center no-repeat;
+  background: url(../images/fundo-rodape.jpg) center center no-repeat;
   padding: 35px 30px;
   background-size: cover;
 }
